@@ -6,13 +6,13 @@
 使用npm
 
 ```bash
-npm install html5storage --save
+npm install @angelasu/html5storage --save
 ```
 
 使用yarn
 
 ```bash
-yarn add html5storage --save
+yarn add @angelasu/html5storage --save
 ```
 
 ## API
