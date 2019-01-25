@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>html5Storage Demo</title>
+</head>
+<body>
+  <script src="../index.js"></script>
+  <script>
+    var ls = new Html5Storage()
+    // ls.set('token', '123', {exp: 20})
+    // ls.set('token2', '456', {exp: 201111})
+    // ls.clear()
+
+    let a = ls.get('token')
+    let b = ls.get('token2')
+    // ls.remove('token')
+    // ls.reset('token', {exp: 30})
+    console.log(a, '1')
+    // ls.replace('token2', '333')
+    // console.log(b, '2')
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.pid
+.env
+.bin
+node_modules
+npm-debug.log
+temp
+generated
+deploy

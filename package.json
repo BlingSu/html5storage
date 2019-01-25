@@ -1,0 +1,30 @@
+{
+  "name": "html5storage",
+  "description": "> 封装一个localstorage的插件 🍵",
+  "version": "1.0.0",
+  "homepage": "https://github.com/angelasubi/html5storage#readme",
+  "author": "angelasubi (https://github.com/angelasubi)",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelasubi/html5storage.git"
+  },
+  "keywords": [
+    "web-storage",
+    "local-storage",
+    "webstorage",
+    "localstorage",
+    "html5storage",
+    "html5-storage"
+  ],
+  "bugs": {
+    "url": "https://github.com/angelasubi/html5storage/issues"
+  }
+}
