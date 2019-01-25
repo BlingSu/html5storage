@@ -1,6 +1,6 @@
 {
   "name": "@angelasu/html5storage",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "> 封装一个localstorage的插件 🍵",
   "main": "index.js",
   "directories": {
