@@ -24,7 +24,7 @@ yarn add @angelasu/html5storage --save
 
 #### 例子
 ```js
-const storageLocal = new Html5Storage()
+const   = new Html5Storage()
 
 const storageSession = new Html5Storage('sessionStorage')
 ```
@@ -36,10 +36,10 @@ const storageSession = new Html5Storage('sessionStorage')
 #### 例子
 
 ```js
-LocalStorage.set('token', '123'),
-LocalStorage.set('token', '123', {day: 1}),
-LocalStorage.set('token', '123', {exp: 24 * 3600}),
-LocalStorage.set('token', '123', {exp: new Date(2019, 1, 22)})
+ .set('token', '123'),
+ .set('token', '123', {day: 1}),
+ .set('token', '123', {exp: 24 * 3600}),
+ .set('token', '123', {exp: new Date(2019, 1, 22)})
 ```
 
 ### get(key)
@@ -48,7 +48,7 @@ LocalStorage.set('token', '123', {exp: new Date(2019, 1, 22)})
 #### 例子
 
 ```js
-LocalStorage.get('token')
+ .get('token')
 ```
 
 ### remove(key)
